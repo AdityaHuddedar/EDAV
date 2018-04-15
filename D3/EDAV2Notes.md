@@ -257,6 +257,7 @@ Selecting by ID
 <p id="id1">
 Watch me grow.
 </p>
+
 ``` js
 d3.select("#id1").transition().duration(3000)
   .style("font-size", "72px");
